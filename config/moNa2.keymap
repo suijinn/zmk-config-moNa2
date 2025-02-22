@@ -48,10 +48,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R             &kp T                                                  &kp Y        &kp U  &kp I      &kp O    &kp P
-&mt LCTRL A       &kp S         &kp D         &kp F             &kp G        &kp SQT             &mkp MB1              &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B        &kp LEFT_BRACKET    &kp MINUS             &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 2 INT_HENKAN  &lt 3 LANG2  &mt LCTRL SPACE     &mt LEFT_SHIFT ENTER  &lt 1 LANG4                             &lt 4 TAB
+&kp Q             &kp W         &kp E         &kp R               &kp T                                                       &kp Y             &kp U  &kp I      &kp O    &kp P
+&mt LCTRL A       &kp S         &kp D         &kp F               &kp G        &kp SQT                 &mkp MB1               &kp H             &kp J  &kp K      &kp L    &kp SEMICOLON
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V               &kp B        &kp LEFT_BRACKET        &kp MINUS              &kp N             &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 2 LEFT_BRACKET  &lt 3 LANG2  &mt LEFT_SHIFT SPACE    &mt RIGHT_SHIFT ENTER  &lt 1 LANGUAGE_1                             &lt 4 TAB
             >;
 
             sensor-bindings =
@@ -61,10 +61,10 @@
 
         layer_1 {
             bindings = <
-&kp ESCAPE  &trans  &kp END     &trans  &trans                       &kp F1         &kp F2    &kp UP_ARROW  &kp F4         &kp F5
-&kp HOME    &trans  &kp DELETE  &trans  &trans  &trans       &trans  &kp BACKSPACE  &kp LEFT  &kp DOWN      &kp RIGHT      &mkp MB2
-&trans      &trans  &trans      &trans  &trans  &trans       &trans  &trans         &mkp MB1  &kp PAGE_UP   &kp PAGE_DOWN  &kp K_APP
-&trans      &trans  &trans      &trans  &trans  &kp SPACE    &trans  &trans                                                &kp F12
+&kp ESCAPE  &trans  &kp END     &trans  &trans                    &trans         &trans    &kp UP_ARROW  &trans         &kp MINUS
+&kp HOME    &trans  &kp DELETE  &trans  &trans  &trans    &trans  &kp BACKSPACE  &kp LEFT  &kp DOWN      &kp RIGHT      &mkp MB2
+&trans      &trans  &trans      &trans  &trans  &trans    &trans  &trans         &mkp MB1  &kp PAGE_UP   &kp PAGE_DOWN  &kp K_APP
+&trans      &trans  &trans      &trans  &trans  &trans    &trans  &trans                                                &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -94,7 +94,7 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5                         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans        &trans        &trans        &trans        &bt BT_CLR_ALL
 &trans  &trans  &trans  &trans  &trans  &trans    &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
 &trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans                                                  &trans
