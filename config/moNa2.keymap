@@ -47,10 +47,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W         &kp E         &kp R               &kp T                                                                &kp Y             &kp U  &kp I      &kp O    &kp P
-&kp A      &kp S         &kp D         &kp F               &kp G                 &trans                  &kp APOSTROPHE         &kp H             &kp J  &kp K      &kp L    &kp SEMICOLON
-&kp Z      &kp X         &kp C         &kp V               &kp B                 &kp INTERNATIONAL_1     &kp MINUS              &kp N             &kp M  &kp COMMA  &kp DOT  &lt 4 SLASH
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 2 LEFT_BRACKET  &mt LCTRL LANGUAGE_2  &mt LEFT_SHIFT SPACE    &mt RIGHT_SHIFT ENTER  &lt 1 LANGUAGE_1                             &lt 3 TAB
+&kp Q         &kp W    &kp E         &kp R               &kp T                                                                &kp Y             &kp U  &kp I      &kp O    &kp P
+&kp A         &kp S    &kp D         &kp F               &kp G                 &trans                  &kp APOSTROPHE         &kp H             &kp J  &kp K      &kp L    &kp SEMICOLON
+&kp Z         &kp X    &kp C         &kp V               &kp B                 &kp INTERNATIONAL_1     &kp MINUS              &kp N             &kp M  &kp COMMA  &kp DOT  &lt 4 SLASH
+&kp LEFT_WIN  &kp TAB  &kp LEFT_ALT  &lt 2 LEFT_BRACKET  &mt LCTRL LANGUAGE_2  &mt LEFT_SHIFT SPACE    &mt RIGHT_SHIFT ENTER  &lt 1 LANGUAGE_1                             &lt 3 TAB
             >;
 
             sensor-bindings =
@@ -73,7 +73,7 @@
             bindings = <
 &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3         &kp NUMBER_4      &kp N5                                                &kp NUMBER_6      &kp N7      &kp N8      &kp N9      &kp N0
 &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)     &kp LS(NUMBER_4)  &kp LS(N5)         &kp LC(LA(KP_NUMBER_0))    &trans  &kp LS(NUMBER_6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp APOSTROPHE
-&trans            &trans            &kp INTERNATIONAL_3  &kp EQUAL         &kp RIGHT_BRACKET  &trans                     &trans  &kp BACKSLASH     &trans      &trans      &trans      &trans
+&trans            &trans            &kp INTERNATIONAL_3  &kp EQUAL         &kp RIGHT_BRACKET  &trans                     &trans  &kp BACKSLASH     &mkp MB1    &trans      &trans      &trans
 &trans            &trans            &trans               &trans            &trans             &trans                     &trans  &trans                                                &trans
             >;
 
